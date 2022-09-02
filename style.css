@@ -3,7 +3,7 @@
   font-family: "Sora", sans-serif;
 }
 body {
-  background-color: rgb(28, 28, 28);
+  background-color: rgb(50, 50, 50);
 }
 
 header {
@@ -11,17 +11,17 @@ header {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  background-color: rgb(40, 40, 40);
+  background-color: rgb(64, 64, 64);
   width: 100vw;
   height: 8vh;
 }
 a {
   font-size: 20px;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 a:hover {
-  color: white;
+background-color: grey;
 }
 main {
   display: flex;
@@ -38,10 +38,10 @@ main {
   height: 70vh;
   width: 70vw;
   border-radius: 20px;
-  background-color: rgb(15, 15, 15);
+  background-color: rgb(31, 31, 31);
 }
 .box-header {
-  background-color: rgb(15, 15, 15);
+  background-color: rgb(31, 31, 31);
   height: 125px;
   width: 65vw;
 }
@@ -103,4 +103,39 @@ align-items: center;
 
 .contact-spacing {
   margin: 30px
+}
+.main-projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 70vw;
+}
+.projects-div{
+  background-color: rgb(50, 50, 50);
+  height: 500px;
+  width: 550px;
+  align-items: center;
+}
+.img-project {
+  height: 250px;
+}
+.project-disc {
+  margin-top: 20px;
+  color: white;
+  font-size: 15px;
+}
+.project-title {
+  color: white;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+.project-links-container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+.links-text {
+  
 }
