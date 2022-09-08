@@ -111,9 +111,10 @@ align-items: center;
   width: 70vw;
 }
 .projects-div{
-  background-color: rgb(50, 50, 50);
+  background-color: rgb(31, 31, 31);
   height: 500px;
-  width: 550px;
+  width: 70vw;
+  border-radius: 20px;
   align-items: center;
 }
 .img-project {
@@ -135,7 +136,4 @@ align-items: center;
   flex-direction: row;
   justify-content: space-evenly;
 
-}
-.links-text {
-  
 }
